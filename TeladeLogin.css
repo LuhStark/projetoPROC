@@ -1,0 +1,72 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to right, rgb(0,0,255), rgb(70,130,180), rgb(65,105,225));
+}
+.box{
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    background-color: rgb(32, 36, 92, 0.884);
+    padding: 15px;
+    border-radius: 15px;
+    width: 50%;
+}
+fieldset{
+    border: 3px solid rgb(7,7,7);
+    border-radius: 8px;
+}
+legend{
+    border: 3px solid rgb(7,7,7);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(65,105,225), rgb(70,130,180),rgb(0,0,255);
+    border-radius: 8px;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputBotton{
+    background-image: linear-gradient(to right,rgb(0,0,255), rgb(65,105,225));
+    width: 100%;
+    border: 1px solid(white);
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+}
+.link:hover{
+    color: red;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: dodgerblue;
+}
