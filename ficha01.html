@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Protocolo de Observação Comportamental - PROC: valores de referência para uma análise quantitativa</title>
     <link rel="stylesheet" href="desing.css">
+    <script src="funcion.js"></script>
 </head>
 <body>
     <div class="box">
@@ -19,8 +20,7 @@
                         Verificar a particpação e o grau de envolvimento da criança nos intercâmbios comunicativos
                     </label>
                     <br><br>
-                    <a>Inicia a conversação/interação</a>
-                    <br>
+                    <p>Inicia a conversação/interação</p>
                         <input type="radio" name="h1" id="ausente_h1" value="0">
                         <label for="ausente_h1">Ausente(0)</label>
                     <br>
@@ -30,8 +30,7 @@
                         <input type="radio" name="h1" id="presente_frequentimente_h1" value="4">
                         <label for="presente_frequentimente_h1">Presente Frequentimente(4)</label>
                     <br><br>
-                    <a>Responde ao interlocutor</a>
-                    <br>
+                    <p>Responde ao interlocutor</p>
                         <input type="radio" name="h2" id="ausente_h2" value="0">
                         <label for="ausente_h2">Ausente(0)</label>
                     <br>
@@ -41,8 +40,7 @@
                         <input type="radio" name="h2" id="presente_frequentimente_h2" value="4">
                         <label for="presente_frequentimente_h2">Presente Frequentimente(4)</label>
                     <br><br>
-                    <a>Aguarda seu turno(não se precipita, interrompendo o interlocutor)</a>
-                    <br>
+                    <p>Aguarda seu turno(não se precipita, interrompendo o interlocutor)</p>
                         <input type="radio" name="h3" id="ausente_h3" value="0">
                         <label for="ausente_h3">Ausente(0)</label>
                     <br>
@@ -52,8 +50,7 @@
                         <input type="radio" name="h3" id="presente_frequentimente_h3" value="4">
                         <label for="presente_frequentimente_h3">Presente Frequentimente(4)</label>
                     <br><br>
-                    <a>Participa ativamente da atividade dialógica (alternância de turnos na interação)</a>
-                    <br>
+                    <p>Participa ativamente da atividade dialógica (alternância de turnos na interação)</p>
                         <input type="radio" name="h4" id="ausente_h4" value="0">
                         <label for="ausente_h4">Ausente(0)</label>
                     <br>
@@ -64,13 +61,12 @@
                         <label for="presente_frequentimente_h4">Presente Frequentimente(4)</label>
                     <br><br>
                         <label for="max" class="question">Total de pontuação (máximo = 16 pontos)</label>
-                        <input type="text" name="resultado_1a" id="resultado_1a" value="" maxlength="2"> 
+                        <input type="number" name="resultado_1a" id="resultado_1a" value="resultado_1a" maxlength="2" > 
                 </div>
                     <br><br>
                 <label for="funcoes" class="question">1b.Funções comunicativas</label>
                 <br><br>
-                <a>Instrumental - solicitação de objetos, açoes ("dar um brinquedo; abrir uma porta")</a>
-                <br>
+                <p>Instrumental - solicitação de objetos, açoes ("dar um brinquedo; abrir uma porta")</p>
                     <input type="radio" name="f1" id="ausente_f1" value="0">
                     <label for="ausente_f1">Ausente(0)</label>
                 <br>
@@ -80,8 +76,7 @@
                     <input type="radio" name="f1" id="presente_frequentimente_f1" value="4">
                     <label for="presente_frequentimente_f1">Presente Frequentimente(4)</label>
                 <br><br>
-                <a>Protesto - interrupção com fala ou ação uma ação indesejada (“pára”)</a>
-                <br>
+                <p>Protesto - interrupção com fala ou ação uma ação indesejada (“pára”)</p>
                     <input type="radio" name="f2" id="ausente_f2" value="0">
                     <label for="ausente_f2">Ausente(0)</label>
                 <br>
@@ -91,8 +86,7 @@
                     <input type="radio" name="f2" id="presente_frequentimente_f2" value="4">
                     <label for="presente_frequentimente_f2">Presente Frequentimente(4)</label>
                 <br><br>
-                <a>Interativa – uso de expressões sociais para iniciar ou encerrar a interação (“oi, tchau”)</a>
-                <br>
+                <p>Interativa – uso de expressões sociais para iniciar ou encerrar a interação (“oi, tchau”)</p>
                     <input type="radio" name="f3" id="ausente_f3" value="0">
                     <label for="ausente_f3">Ausente(0)</label>
                 <br>
@@ -102,8 +96,7 @@
                     <input type="radio" name="f3" id="presente_frequentimente_f3" value="4">
                     <label for="presente_frequentimente_f3">Presente Frequentimente(4)</label>
                 <br><br>
-                <a>Nomeação – nomeação espontânea de objetos, pessoas ações (“ó cachorro”)</a>
-                <br>
+                <p>Nomeação – nomeação espontânea de objetos, pessoas ações (“ó cachorro”)</p>
                     <input type="radio" name="f4" id="ausente_f4" value="0">
                     <label for="ausente_f4">Ausente(0)</label>
                 <br>
@@ -113,8 +106,7 @@
                     <input type="radio" name="f4" id="presente_frequentimente_f4" value="4">
                     <label for="presente_frequentimente_f4">Presente Frequentimente(4)</label>
                 <br><br>
-                <a>Informativa – comentários, informações espontâneas na interação (“ó meu sapato”)</a>
-                <br>
+                <p>Informativa – comentários, informações espontâneas na interação (“ó meu sapato”)</p>
                     <input type="radio" name="f5" id="ausente_f5" value="0">
                     <label for="ausente_f5">Ausente(0)</label>
                 <br>
@@ -124,8 +116,7 @@
                     <input type="radio" name="f5" id="presente_frequentimente_f5" value="4">
                     <label for="presente_frequentimente_f5">Presente Frequentimente(4)</label>
                 <br><br>
-                <a>Heurística – solicitação de informação ou permissão (“pode pegar? / Cadê a bola?)</a>
-                <br>
+                <p>Heurística – solicitação de informação ou permissão (“pode pegar? / Cadê a bola?)</p>
                     <input type="radio" name="f6" id="ausente_f6" value="0">
                     <label for="ausente_f6">Ausente(0)</label>
                 <br>
@@ -135,8 +126,7 @@
                     <input type="radio" name="f6" id="presente_frequentimente_f6" value="4">
                     <label for="presente_frequentimente_f6">Presente Frequentimente(4)</label>
                 <br><br>
-                <a>Narrativa – presença de turnos narrativos (“o príncipe beijou a princesa e casou”)</a>
-                <br>
+                <p>Narrativa – presença de turnos narrativos (“o príncipe beijou a princesa e casou”)</p>
                     <input type="radio" name="f7" id="ausente_f7" value="0">
                     <label for="ausente_f7">Ausente(0)</label>
                 <br>
@@ -148,7 +138,16 @@
                 <br><br>
                     <label for="max" class="question">Total de pontuação (máximo = 14 pontos)</label>
                     <input type="text" name="resultado_1b" id="resultado_1b" value="" maxlength="2"> 
-            <footer class="copyright"> <!--Assinatura-->
+                    <br><br>
+                <div>
+                    <button class="botao">
+                        <a href="index.html">Cadastro Paciente</a>
+                    </button>
+                    <button class="botao">
+                        <a href="ficha02.html">Avançar</a>
+                    </button>
+                </div>    
+                    <footer class="copyright"> <!--Assinatura-->
                         Luana Vieira de Freitas - RU 420091
                         <span>&copy;</span>
                     </footer>
